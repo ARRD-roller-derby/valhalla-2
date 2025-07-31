@@ -1,3 +1,38 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #378f6a;
+  --color-secondary: #0d4863;
+  --color-accent: #1e583d;
+  --color-highlight: #f4cb71;
+  --color-text: #adadad;
+  --color-textLight: #dfdfdf;
+  --color-textExtraLight: #f7f7f7;
+  --color-textDark: #6e6e6e;
+  --color-textError: #c15151;
+  --color-bg: #18191a;
+  --color-bgDark: #0d0d0e;
+  --color-bgLight: #212422;
+  --color-bgLightExtra: rgb(56, 61, 58);
+  --color-bgLightSubtitle: rgb(64, 70, 66);
+  --color-link: #30b980;
+  --color-border: #2a2b2d;
+  --color-discord: #5468ff;
+  --color-discordHover: #656c85cc;
+  --color-badge-safe-skills-1: #cfbe97;
+  --color-badge-safe-skills-2: #ffffff;
+  --color-badge-safe-skills-3: #bab325;
+  --color-badge-roue-jaune: #fcd34d;
+  --color-badge-roue-verte: #10b981;
+  --color-badge-roue-bleue: #3b82f6;
+  --color-badge-advanced: #378f6a;
+  --color-badge-vie-asso: #ec4899;
+  --color-badge-safe-skills-1: #cfbe97;
+  --color-badge-safe-skills-2: #ffffff;
+  --color-badge-safe-skills-3: #bab325;
+  --color-badge-roue-jaune: #fcd34d;
+  --color-badge-roue-verte: #10b981;
+  --color-badge-roue-bleue: #3b82f6;
+  --color-badge-advanced: #378f6a;
+  --color-badge-vie-asso: #ec4899;
+}
