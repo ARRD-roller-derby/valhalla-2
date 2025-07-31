@@ -2,7 +2,6 @@ import type { SolidAuthConfig } from "@solid-mediakit/auth";
 import Discord from "@auth/core/providers/discord";
 import { serverEnv } from "~/env/server";
 
-
 declare module "@auth/core/types" {
   export interface Session {
     user?: DefaultSession["user"] & {
@@ -13,7 +12,6 @@ declare module "@auth/core/types" {
     providerId: string;
   }
 }
-
 
 export const authOptions: SolidAuthConfig = {
   providers: [
